@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.service;
+package com.sbsample.springboot.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.in28minutes.springboot.model.Course;
-import com.in28minutes.springboot.model.Student;
+import com.sbsample.springboot.model.Course;
+import com.sbsample.springboot.model.Student;
 
 @Component
 public class StudentService {
@@ -23,11 +23,11 @@ public class StudentService {
 				Arrays.asList("Learn Maven", "Import Project", "First Example",
 						"Second Example"));
 
-		Student ranga = new Student("Student1", "Ranga Karanam",
+		Student studentA = new Student("Student1", "studentA KerberosKey",
 				"Hiker, Programmer and Architect", new ArrayList<>(
 						Arrays.asList(course1, course2)));
 
-		students.add(ranga);
+		students.add(studentA);
 	}
 
 	public Student retrieveStudent(String studentId) {

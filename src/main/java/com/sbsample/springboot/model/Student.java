@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.model;
+package com.sbsample.springboot.model;
 
 import java.util.List;
 

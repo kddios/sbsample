@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.controller;
+package com.sbsample.springboot.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.in28minutes.springboot.model.Course;
-import com.in28minutes.springboot.service.StudentService;
+import com.sbsample.springboot.model.Course;
+import com.sbsample.springboot.service.StudentService;
 
 @RestController
 public class StudentController {

@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.controller;
+package com.sbsample.springboot.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -10,7 +10,7 @@ public class LoginController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String showLoginPage(ModelMap model) {
-        model.put("name", "in28Minutes");
+        model.put("name", "sbsample");
         return "welcome";
     }
 
